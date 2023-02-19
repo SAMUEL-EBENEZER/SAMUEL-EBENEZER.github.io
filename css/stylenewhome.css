@@ -1,0 +1,116 @@
+@charset "utf-8";
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #727E8C;
+}
+a {
+	color: #3a434e;
+}
+.bg-primary{
+background-color:#0e084c !important;	
+}
+.btn{
+border:2px solid transparent;
+text-transform:uppercase;
+letter-spacing:1px;	
+}
+.btn-sm{
+font-size:11px;	
+}
+.display-4{
+font-weight:700;	
+}
+.btn:hover{
+border:2px solid transparent;	
+}
+.btn-primary{
+background-color:#0e084c !important;	
+}
+.card{
+border:0;	
+}
+.card-title{
+border-bottom:1px dashed #ddd;
+padding-bottom:20px;	
+}
+.btn-lg {
+	font-size: 13px;
+	font-weight: 500;
+	color: #727E8C;
+	padding: 12px 30px;
+	letter-spacing: 1px;
+}
+.display-5{
+	font-size:36px;	
+}
+.btn-success {
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: #2ECC71;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	color:#0e084c !important
+
+}
+.banner-bg {
+	background: url(../img/banner-bg.jpg) no-repeat center top;
+	background-size: cover;
+	/* padding:100px 0; */
+}
+.geo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.bb i {
+	font-size: 34px;
+	margin-bottom: 24px;
+}
+.bg-image {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contact-bg {
+	background-image: url(../img/Contact\ us.png);
+	margin: 5%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+.footer-logo img {
+	width: 200px;
+	background-position: center;
+	height: auto;
+}
+.dd{
+width:150px;
+height:auto;
+margin:0 auto;	
+}
+.pp img {
+	width: 170px;
+	height: auto;
+}
+label {
+	font-size: 14px;
+	font-weight: 500;
+}
+.vv {
+	transition: all 0.3s ease;
+}
+@media screen and (max-width: 992px) {
+  .mobile-bg {
+    background-color:#0e084c;
+  }
+}
+#contactform{
+	padding: 5%;
+    background-color: #b46262;
+    border-radius: 83px;
+}
